@@ -16,13 +16,14 @@ A simple web application to search for movies using the OMDb API. Built with:
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/hasalaperera/movie-finder.git
 cd movie-finder
-
+```
 ### 2. Install Dependencies
-
+```bash
 npm install
-
+```
 ### 3. Create a `.env` File
 
 OMDB_API_KEY=your_omdb_api_key_here
