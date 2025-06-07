@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Finder</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Finder</h1>
+    <div class="search-bar">
+      <input id="input" type="text" placeholder="Enter movie title" />
+      <button onclick="search()">Search</button>
+    </div>
+    <div id="result" class="result">
+      <img id="poster" src="" alt="Movie Poster" class="poster" />
+      <table class="details-table">
+        <tr><th>Title</th><td id="title">N/A</td></tr>
+        <tr><th>Year</th><td id="year">N/A</td></tr>
+        <tr><th>Actor</th><td id="actor">N/A</td></tr>
+        <tr><th>Awards</th><td id="awards">N/A</td></tr>
+        <tr><th>Country</th><td id="country">N/A</td></tr>
+        <tr><th>Writer</th><td id="writer">N/A</td></tr>
+        <tr><th>Director</th><td id="director">N/A</td></tr>
+        <tr><th>Genre</th><td id="genre">N/A</td></tr>
+        <tr><th>Language</th><td id="language">N/A</td></tr>
+      </table>
+    </div>
+    <p id="error" class="error-message"></p>
+  </div>
+</body>
+</html>
