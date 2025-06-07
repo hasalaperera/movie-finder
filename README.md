@@ -26,11 +26,14 @@ npm install
 ```
 ### 3. Create a `.env` File
 
-OMDB_API_KEY=your_omdb_api_key_here
+OMDB_API_KEY=your_omdb_api_key_here  
 Visit OMDB website and create API key https://www.omdbapi.com/
 
 ### 4. Start the Server
-
+```bash
 npm start
-
-Then visit: http://localhost:3000
+```
+Then visit:  
+```bash
+http://localhost:3000
+```
